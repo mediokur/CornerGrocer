@@ -62,7 +62,7 @@ void grocerMenu::itemLookUp() {
 
 ```
 ### Improvements to be Made and Lessons Learned
-I believe the way my variables could have been done better. I started out with pass by references to all my variables which were held in setters and getters. I ultimately
+I believe the way my variables were accessed could have been done better. I started out with pass by references to all my variables which were held in setters and getters. I ultimately
 had to ditch this method of variable access since I was struggling with the implmentation of standard library methods in combination with getter/setter methods and 
 needed to complete the project, simply throwing the variables into the privated section of the only class I had which would protect access from non-inheriting files.
 I loved encapsulation when I learned it for a Java course, and will spend some time figuring out how to neatly add more security more to variable access while preserving
