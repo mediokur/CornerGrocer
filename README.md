@@ -24,9 +24,9 @@ were to take this code and accidentally push a value into either vector without 
 but provide bad information without raising any flags. I kept the original map so that the frequency of a word was tied to it at every level, and then used storage
 variables to pull both the user input and map keys into for the iteration, so that the variables can be lowercased for string comparison(C++ standard libraries do not
 allow for case insensitive string comparison). This meant that the original data was preserved so that a user can make menu selections in any order without the formatting
-of the printouts being affected. Below is the code block for that method, but can also be found in context in the files. This was the most challenging method to
+of the printouts being affected. This was the most challenging method to
 write because there are so many other ways this could be performed, and I believe the method I used is the best I could think of since I do not think 
-an input and map key iteration and comparison could occur with fewer than 1 nested conditional/loop.
+an input and map key iteration and comparison could occur with fewer than 1 nested conditional/loop.  Below is the code block for that method, but can also be found in context in the files.
 ```c++
 
 void grocerMenu::itemLookUp() {
